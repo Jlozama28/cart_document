@@ -1,0 +1,17 @@
+This part of the project is responsible to display items that can be added, removed
+and give the user a total.
+
+the schematic of this part was first to display the items with the quantity, the
+name and the price and a workable + and - button.
+
+the part contains two files: main.dart and the cart.dart, all the work and implementations
+are done in the cart.dart.
+main.dart is link to cart.dart by importing cart.dart library into main.dart.
+
+the main body of the code implementation consists of a listview which created a
+work containing the item, the name, the quantity, the price, the add button, the
+remove button.
+I also implemented the product listview which return a product listview index.
+from there, I specify the itemCount which is how many item I wanted to display.
+
+the last part of the prototype contains a subtotal with tax.
